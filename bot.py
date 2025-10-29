@@ -1,5 +1,5 @@
 import telebot
-
+from telebot import types
 # 🔑 Бот токеніңізді енгізіңіз:
 TOKEN = "8320390631:AAFVVH5zFoNARrNNu94ZS9U8tKVy32uVpdg"
 bot = telebot.TeleBot(TOKEN)
@@ -132,3 +132,4 @@ def answer_user(message):
 # ------------------------
 print("🤖 PsyHelpBot іске қосылды. Telegram-да /start деп тексеріңіз.")
 bot.polling()
+
